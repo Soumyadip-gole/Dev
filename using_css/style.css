@@ -1,0 +1,30 @@
+/* External CSS */
+
+/* Styling for h2 elements */
+h2 {
+    color: green;
+    font-family: 'Georgia', serif;
+    text-decoration: underline;
+}
+
+/* Class selector: .sky */
+.sky {
+    color: bisque;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Styling for .box */
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px auto; /* Center the box horizontally */
+    border: 10px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center; /* Center text inside the box */
+    line-height: 20px; /* Vertically align text */
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
