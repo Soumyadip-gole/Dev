@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-div {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url('../images/image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.background-text {
+    color: black;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(169, 169, 169);
+}
+button{
+    margin: 30px;
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 1.1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
