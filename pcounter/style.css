@@ -1,0 +1,81 @@
+/* Body styling */
+body {
+    background-image: url("../images/pngtree-a-snow-covered-railway-track-with-lines-in-the-snow-image_13129856.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main heading */
+h1 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Counter display */
+#counter {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons styling */
+button {
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #007FFF;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+#b3 {
+    background-color: greenyellow;
+    border-color: darkgreen;
+}
+
+#b3:hover {
+    background-color: #32CD32;
+    color: white;
+}
+
+/* Previous entries section */
+#entries {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#preventry {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
